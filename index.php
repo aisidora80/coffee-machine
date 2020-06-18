@@ -48,7 +48,17 @@
             </div>
           </div>
           <div class="col-6"> <!-- баланс,атм,сдача -->
-            
+            <div class="input-group mb-3">
+              <input type="text" class="form-control balance" placeholder="баланс">
+              <div class="input-group-append">
+                <span class="input-group-text">&#8381;</span>
+              </div>
+            </div>
+            <div class="atm">
+              <img src="img/bill_acc.png" alt="">
+            </div>
+            <button class="btn btn-primary btn-block mt-3 change-btn">сдача</button>
+            <div class="change-box mt-3"></div>
           </div>
         </div>
           
